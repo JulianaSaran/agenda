@@ -1,0 +1,24 @@
+{
+  "name": "juliana/agenda",
+  "type": "project",
+  "require": {
+    "php": ">=8.1",
+    "thiagocordeiro/tiny-container": "^0.3.0",
+    "bramus/router": "~1.6",
+    "ext-pdo": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Juliana\\Agenda\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Juliana"
+    }
+  ]
+}
